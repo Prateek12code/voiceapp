@@ -1,0 +1,77 @@
+#start-btn
+{
+    width: 40%;
+} 
+#camera
+{
+    width:360px;
+    height: 250px;
+    border:1px solid grey;
+}
+#logo_img
+{
+    width: 150px;
+    border-radius: 100px;
+}
+#textbox
+{
+    width: 300px;
+}
+
+body{
+    background: bisque;
+    margin: 10px 10px teal;
+    margin: 0;
+    padding: 0;
+}
+
+#result1 img{
+    border: solid 5px teal;
+    transition: 0.5s ease;
+}
+
+#result2 img{
+    border: solid 5px teal;
+    transition: 0.5s ease;
+}
+ 
+#result3 img{
+    border: solid 5px teal;
+    transition: 0.5s ease;
+}
+
+#rr{
+    justify-content: center;
+    display: inline;
+}
+
+#result1 img:hover{
+    border: solid 5px rgb(0, 255, 255);
+    border-radius: 20px;
+}
+
+#result2 img:hover{
+    border: solid 5px rgb(0, 255, 255);
+    border-radius: 20px;
+}
+ 
+#result3 img:hover{
+    border: solid 5px rgb(0, 255, 255);
+    border-radius: 20px;
+}
+
+#footer{
+    text-align: center;
+    font-weight: 900;
+    background-color: darkcyan;
+    margin: 0 0;
+    padding: 0 0;
+    color: darksalmon;
+    transition: 0.5s ease;
+}
+
+#footer:hover{
+    
+    background-color: teal;
+    color: black;
+}
